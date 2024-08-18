@@ -25,6 +25,8 @@ Route::view('login', "login");
 Route::view('profile', "profile");
 Route::view('upload', "upload");
 Route::view('display', "display");
+Route::view('about', "about");
+Route::view('home', "home");
 
 Route::post("AddUser",[UserController::class,"addUser"]);
 
